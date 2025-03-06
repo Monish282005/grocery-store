@@ -1,0 +1,22 @@
+.cart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.checkout-button{
+    margin-top: 10px;
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.checkout-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column ;
+}
