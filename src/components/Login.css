@@ -12,15 +12,16 @@ body {
   background: #fff;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
+  text-align: center;
 }
 
 h2 {
-  text-align: center;
   color: #4CAF50;
   margin-bottom: 20px;
 }
 
 .form-group {
+  text-align: left;
   margin-bottom: 15px;
 }
 
@@ -38,7 +39,6 @@ input {
   box-sizing: border-box;
 }
 
-
 .error {
   color: red;
   font-size: 14px;
@@ -53,8 +53,26 @@ input {
   border-radius: 4px;
   cursor: pointer;
   font-size: 16px;
+  width: 100%;
+  margin-top: 10px;
 }
 
 .login-button:hover {
   background-color: #45a049;
+}
+
+.toggle-text {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+.toggle-text span {
+  color: #4CAF50;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.toggle-text span:hover {
+  text-decoration: underline;
 }
