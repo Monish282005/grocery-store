@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Home.css";
 import { groceries } from "./groceries";
+import Footer from "./Footer";
 
 export default function Home({ addToCart }) {
   const [searchQuery, setSearchQuery] = useState("");
@@ -108,6 +109,7 @@ export default function Home({ addToCart }) {
           ))}
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }
